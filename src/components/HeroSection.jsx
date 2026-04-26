@@ -24,7 +24,7 @@ const HeroSection = ({ name, title, bio }) => {
       <div className="hero-image-container">
         <div className="image-wrapper">
           <img 
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop" 
+            src="/profile.jpg" 
             alt={name} 
             className="hero-image" 
           />
