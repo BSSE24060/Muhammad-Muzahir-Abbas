@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container container">
         <NavLink to="/" className="navbar-logo" onClick={closeMenu}>
-          Portfolio<span>.</span>
+          Muhammad Muzahir Abbas
         </NavLink>
         
         <div className="menu-icon" onClick={toggleMenu}>
