@@ -30,14 +30,14 @@ const Contact = () => {
               <MapPin className="info-icon" />
               <div>
                 <h4>Location</h4>
-                <p>San Francisco, CA</p>
+                <p>Lahore, Pakistan</p>
               </div>
             </div>
             <div className="info-item">
               <Phone className="info-icon" />
               <div>
                 <h4>Phone</h4>
-                <p>+1 (555) 123-4567</p>
+                <p>{profileData.phone}</p>
               </div>
             </div>
           </div>
