@@ -1,0 +1,70 @@
+.about-page {
+  padding: 5rem 2rem;
+}
+
+.about-content {
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding: 3rem;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-text h3 {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about-text h3::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+
+.about-text p {
+  color: var(--text-muted);
+  line-height: 1.8;
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+
+.toggle-btn {
+  margin-top: 2rem;
+  background-color: transparent;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid var(--primary-color);
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  transition: var(--transition);
+}
+
+.toggle-btn:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+  transform: translateY(-2px);
+}
+
+.slide-down {
+  animation: slideDown 0.4s ease-out;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    padding: 2rem 1.5rem;
+  }
+}
