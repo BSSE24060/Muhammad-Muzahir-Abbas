@@ -30,7 +30,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; {currentYear} {profileData.name}. All rights reserved.</p>
+        <p>Muhammad Muzahir Abbas Building digital experience with domination and passion</p>
       </div>
     </footer>
   );
