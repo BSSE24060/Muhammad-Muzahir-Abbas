@@ -1,29 +1,38 @@
 export const projectsData = [
   {
     id: 1,
-    title: "E-Commerce Dashboard",
-    description: "A comprehensive admin dashboard for e-commerce platforms with real-time data visualization, inventory management, and sales tracking.",
-    tech: ["React", "Recharts", "Tailwind CSS", "Vite"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
+    title: "Showroom Management System",
+    description: "A comprehensive system for managing vehicle showrooms, including inventory tracking, sales processing, and customer relationship management.",
+    tech: ["React", "Node.js", "Express", "MongoDB"],
+    image: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?q=80&w=800&auto=format&fit=crop",
     github: "https://github.com",
-    demo: "https://demo.com"
+    demo: ""
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A drag-and-drop Kanban style task management tool designed for agile teams. Features include custom boards, tags, and due dates.",
-    tech: ["React", "Redux", "Beautiful DnD"],
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?q=80&w=800&auto=format&fit=crop",
+    title: "Ecommerce Website",
+    description: "A full-featured online shopping platform with a shopping cart, secure payment gateway integration, and user authentication.",
+    tech: ["React", "Redux", "Tailwind CSS", "Firebase"],
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
     github: "https://github.com",
     demo: ""
   },
   {
     id: 3,
-    title: "Weather Forecast WebApp",
-    description: "A beautiful and responsive weather application providing current conditions and 7-day forecasts utilizing the OpenWeather API.",
-    tech: ["JavaScript", "HTML/CSS", "Fetch API"],
-    image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?q=80&w=800&auto=format&fit=crop",
+    title: "University Management System",
+    description: "An administrative portal for universities to handle student enrollments, course scheduling, faculty management, and grading.",
+    tech: ["JavaScript", "HTML/CSS", "PHP", "MySQL"],
+    image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=800&auto=format&fit=crop",
     github: "https://github.com",
-    demo: "https://weather-demo.com"
+    demo: ""
+  },
+  {
+    id: 4,
+    title: "Mall Management System",
+    description: "A software solution designed to streamline the operations of shopping malls, managing shop leases, maintenance requests, and billing.",
+    tech: ["Vue.js", "Django", "PostgreSQL"],
+    image: "https://images.unsplash.com/photo-1519999482648-25049ddd37b1?q=80&w=800&auto=format&fit=crop",
+    github: "https://github.com",
+    demo: ""
   }
 ];
