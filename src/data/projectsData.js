@@ -6,7 +6,7 @@ export const projectsData = [
     tech: ["React", "Node.js", "Express", "MongoDB"],
     image: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?q=80&w=800&auto=format&fit=crop",
     github: "https://github.com/MuhammadMuzahirAbbas/showroom-management",
-    demo: ""
+    demo: "https://showroom.muhammad-muzahir-abbas.vercel.app"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const projectsData = [
     tech: ["React", "Redux", "Tailwind CSS", "Firebase"],
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
     github: "https://github.com/MuhammadMuzahirAbbas/ecommerce-website",
-    demo: ""
+    demo: "https://ecommerce.muhammad-muzahir-abbas.vercel.app"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const projectsData = [
     tech: ["JavaScript", "HTML/CSS", "PHP", "MySQL"],
     image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=800&auto=format&fit=crop",
     github: "https://github.com/MuhammadMuzahirAbbas/university-management",
-    demo: ""
+    demo: "https://university.muhammad-muzahir-abbas.vercel.app"
   },
   {
     id: 4,
@@ -33,6 +33,6 @@ export const projectsData = [
     tech: ["Vue.js", "Django", "PostgreSQL"],
     image: "https://images.unsplash.com/photo-1519999482648-25049ddd37b1?q=80&w=800&auto=format&fit=crop",
     github: "https://github.com/MuhammadMuzahirAbbas/mall-management",
-    demo: ""
+    demo: "https://mall.muhammad-muzahir-abbas.vercel.app"
   }
 ];
