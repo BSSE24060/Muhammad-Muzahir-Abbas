@@ -5,7 +5,7 @@ export const profileData = {
   email: "ranamuzahir512@gmail.com",
   phone: "+923258856799",
   socialLinks: {
-    github: "https://github.com",
+    github: "https://github.com/MuhammadMuzahirAbbas",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com"
   }
