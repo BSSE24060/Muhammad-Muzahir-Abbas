@@ -36,7 +36,13 @@ const Navbar = () => {
             <NavLink to="/skills" className="nav-links" onClick={closeMenu}>Skills</NavLink>
           </li>
           <li className="nav-item">
+            <NavLink to="/experience" className="nav-links" onClick={closeMenu}>Experience</NavLink>
+          </li>
+          <li className="nav-item">
             <NavLink to="/projects" className="nav-links" onClick={closeMenu}>Projects</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/testimonials" className="nav-links" onClick={closeMenu}>Testimonials</NavLink>
           </li>
           <li className="nav-item">
             <NavLink to="/contact" className="nav-links" onClick={closeMenu}>Contact</NavLink>
